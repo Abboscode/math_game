@@ -1,0 +1,112 @@
+
+
+h1{
+
+font-size: xx-large;
+
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    background-color: black;
+    height: 100%; /* Ensures body fills the full viewport height */
+    margin: 10%;
+
+  }
+section#container{
+display: flex;
+flex-direction: column;
+height: 100%;
+align-items:center;
+justify-content: space-between;
+
+}
+section input{
+width: 200px;
+height: 100px;
+color: blue;
+font-size:xx-large;
+border-radius: 30%;
+
+}
+
+section input::placeholder{
+text-align: center;
+font-size: large;
+font-family: sans-serif;
+color: black;
+
+}
+
+button{
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+font-size: large;
+background-color:black;
+color:white;
+border-color: white;
+border-radius: 10%;
+}
+
+#timer{
+    font-family:cursive;
+    padding: 20px;
+    border:solid;
+    font-size: xx-large;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+.equation{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+font-family: sans-serif;
+color: white;
+
+}
+
+#equationContainer{
+display: flex;
+
+width: 300px;
+height: 100px;
+font-size: 30px;
+
+margin: 20px;
+border: solid;
+justify-content: center;
+border-color: white;
+border-radius: 10%;
+color: white;
+}
+.equation{
+
+margin: 10px;
+}
+#flag{
+
+    margin: 20px;
+    padding: 10%;
+font-size: xx-large;
+color: white;
+}
+#correctAnswers{
+    margin: 20px;
+    padding: 10%;
+font-size: xx-large;
+color: white;
+}
+.statisticContaners{
+display: flex;
+
+    justify-content: center;
+    width: 200px;
+height: 200px;
+    background-color: blue;
+}
