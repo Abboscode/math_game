@@ -69,7 +69,7 @@ let counter =10
     if(counter==0){
         document.getElementById("timer").innerHTML="DONE"
         counter=10
-        document.getElementById("equationContainer).innerHTML="DONE"
+        document.getElementById("equationContainer").innerHTML="DONE"
         stopTimer()
     }else{
     document.getElementById("timer").innerHTML=counter--
